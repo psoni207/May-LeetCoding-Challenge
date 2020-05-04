@@ -12,6 +12,8 @@ public:
         
 		//just xor res with num, you'll get the complement.. 
 		//1111 ^ 1001 = 0110
+		
+		//Another ex: num = 5(101), mask = 111,  101 ^ 111 = 010
         res = res  ^ num;
         return res;
     }
